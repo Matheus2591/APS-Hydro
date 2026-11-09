@@ -1,0 +1,11 @@
+{
+  "cli": { "appVersionSource": "local" },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "environment": "preview",
+      "env": { "EXPO_PUBLIC_USE_MOCKS": "false", "EXPO_PUBLIC_API_URL": "" },
+      "android": { "buildType": "apk" }
+    }
+  }
+}

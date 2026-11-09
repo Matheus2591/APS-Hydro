@@ -1,0 +1,103 @@
+import type { CitySummary, FloodReport, Station } from '../types/domain';
+
+export const citySummary: CitySummary = {
+  city: 'Santos - SP',
+  status: 'attention',
+  rainfall24hMm: 38.4,
+  activeReports: 4,
+  stationsOnline: 8,
+  updatedAt: '2026-09-19T14:42:00-03:00',
+};
+
+export const stations: Station[] = [
+  {
+    id: 'station-vila-mathias',
+    name: 'Vila Mathias',
+    neighborhood: 'Vila Mathias',
+    coordinates: { latitude: -23.9509, longitude: -46.3251 },
+    rainfallMm: 12.8,
+    accumulationPeriodHours: 1,
+    observedAt: '2026-09-19T14:40:00-03:00',
+    source: 'CEMADEN',
+    status: 'attention',
+  },
+  {
+    id: 'station-morros',
+    name: 'Morro da Nova Cintra',
+    neighborhood: 'Nova Cintra',
+    coordinates: { latitude: -23.9385, longitude: -46.3441 },
+    rainfallMm: 8.2,
+    accumulationPeriodHours: 1,
+    observedAt: '2026-09-19T14:38:00-03:00',
+    source: 'Prefeitura de Santos',
+    status: 'normal',
+  },
+  {
+    id: 'station-zona-noroeste',
+    name: 'Zona Noroeste',
+    neighborhood: 'Rádio Clube',
+    coordinates: { latitude: -23.9401, longitude: -46.3836 },
+    rainfallMm: 18.6,
+    accumulationPeriodHours: 1,
+    observedAt: '2026-09-19T14:41:00-03:00',
+    source: 'CEMADEN',
+    status: 'alert',
+  },
+];
+
+export const reports: FloodReport[] = [
+  {
+    id: 'report-01',
+    clientId: 'seed-report-01',
+    category: 'partial',
+    description: 'Água cobrindo parte da pista. Carros passam devagar.',
+    address: 'Av. Ana Costa, próximo ao canal 1',
+    neighborhood: 'Gonzaga',
+    coordinates: { latitude: -23.9604, longitude: -46.3354 },
+    observedAt: '2026-09-19T14:25:00-03:00',
+    createdAt: '2026-09-19T14:27:00-03:00',
+    status: 'synced',
+    source: 'community',
+    confirmations: 7,
+    authorId: 'seed-user-01',
+  },
+  {
+    id: 'report-02',
+    clientId: 'seed-report-02',
+    category: 'blocked',
+    description: 'Trecho com água alta, passagem de veículos interrompida.',
+    address: 'Rua João Fraccaroli, 412',
+    neighborhood: 'Bom Retiro',
+    coordinates: { latitude: -23.9425, longitude: -46.3684 },
+    observedAt: '2026-09-19T14:08:00-03:00',
+    createdAt: '2026-09-19T14:10:00-03:00',
+    status: 'synced',
+    source: 'community',
+    confirmations: 12,
+    authorId: 'seed-user-02',
+  },
+  {
+    id: 'report-03',
+    clientId: 'seed-report-03',
+    category: 'passable',
+    description: 'Acúmulo leve junto à sarjeta, via transitável.',
+    address: 'Av. Conselheiro Nébias, 720',
+    neighborhood: 'Boqueirão',
+    coordinates: { latitude: -23.9639, longitude: -46.322 },
+    observedAt: '2026-09-19T13:51:00-03:00',
+    createdAt: '2026-09-19T13:55:00-03:00',
+    status: 'synced',
+    source: 'community',
+    confirmations: 3,
+    authorId: 'seed-user-03',
+  },
+];
+
+export const rainHistory = [
+  { label: '09h', value: 3 },
+  { label: '10h', value: 5 },
+  { label: '11h', value: 7 },
+  { label: '12h', value: 4 },
+  { label: '13h', value: 9 },
+  { label: '14h', value: 13 },
+];

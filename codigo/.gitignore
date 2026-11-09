@@ -1,0 +1,41 @@
+# Dependências e arquivos gerados
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+dist/
+**/dist/
+web-build/
+coverage/
+.runtime/
+.test-build/
+**/.test-build/
+tmp/
+*.log
+
+# Configurações particulares e persistência local
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.jks
+*.keystore
+
+# Compilação Android/iOS
+**/android/.gradle/
+**/android/.kotlin/
+**/android/app/.cxx/
+**/android/build/
+**/android/app/build/
+**/android/local.properties
+**/android/keystore.properties
+**/ios/
+*.apk
+*.aab
+.DS_Store
+Thumbs.db

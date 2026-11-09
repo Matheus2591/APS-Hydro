@@ -1,0 +1,24 @@
+{
+  "name": "hydro-pulse-aps",
+  "version": "3.0.4",
+  "private": true,
+  "description": "Protótipo acadêmico de chuva e relatos de alagamento em Santos",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "server": "npm --prefix server run dev",
+    "mobile": "npm --prefix mobile start",
+    "web": "npm --prefix mobile run web",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix mobile run typecheck",
+    "import:official": "npm --prefix server run import:official",
+    "prepare:data": "node --import ./server/node_modules/tsx/dist/loader.mjs scripts/prepare-mobile-data.mjs",
+    "update:official": "npm --prefix server run refresh:official && npm run prepare:data",
+    "demo:seed": "npm --prefix server run demo:seed",
+    "demo:idempotency": "npm --prefix server run demo:idempotency",
+    "tunnel": "cloudflared tunnel --url http://127.0.0.1:3000",
+    "present": "node scripts/presentation.mjs",
+    "check:release": "node scripts/check-release.mjs"
+  }
+}

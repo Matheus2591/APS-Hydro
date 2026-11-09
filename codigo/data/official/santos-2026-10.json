@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "source": "Prefeitura de Santos — Dados de Pluviometria",
+    "sourceUrl": "https://www.santos.sp.gov.br/?q=pluviometria-tabela",
+    "accessedAt": "2026-10-24T18:05:56.599Z",
+    "datasetId": "santos-2026-10",
+    "accessMode": "official_import",
+    "notes": [
+      "Dados consultados diretamente na tabela HTTPS da Prefeitura de Santos.",
+      "Histórico por data; sem horário ou coordenadas de estação publicados. Não representa monitoramento em tempo real.",
+      "Unidade mm identificada no texto de acumulado abaixo da tabela; daily descreve a organização por data."
+    ]
+  },
+  "observations": [
+    {
+      "observationDate": "2026-10-01",
+      "value": 5.5,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-02",
+      "value": 16.2,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-03",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-04",
+      "value": 8.8,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-05",
+      "value": 4,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-06",
+      "value": 0.6,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-07",
+      "value": 4.2,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-08",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-09",
+      "value": 20.1,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-10",
+      "value": 0.4,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-11",
+      "value": 10.5,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-12",
+      "value": 3.8,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-13",
+      "value": 5.6,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-14",
+      "value": 0.2,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-15",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-16",
+      "value": 61.4,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-17",
+      "value": 26,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-18",
+      "value": 0.4,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-19",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-20",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-21",
+      "value": 0,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    },
+    {
+      "observationDate": "2026-10-22",
+      "value": 2,
+      "unit": "mm",
+      "period": "daily",
+      "scopeName": "Santos",
+      "scopeType": "municipality"
+    }
+  ]
+}

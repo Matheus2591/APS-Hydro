@@ -1,0 +1,28 @@
+# Plano pago e disco persistente. Confira o preço no painel antes de confirmar.
+services:
+  - type: web
+    name: hydro-pulse-api
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /health
+    autoDeployTrigger: "off"
+    disk:
+      name: hydro-pulse-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: DB_PATH
+        value: /data/server.db
+      - key: BACKUP_DIRECTORY
+        value: /data/backups
+      - key: MAINTENANCE_ENABLED
+        value: "true"
+      - key: TRUST_PROXY_HOPS
+        value: "1"

@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: true
+
+# A instalação é explícita; executar um script não deve reinstalar as dependências.
+verifyDepsBeforeRun: false
+
+# Evita caminhos muito profundos no compilador Android do Windows.
+nodeLinker: hoisted

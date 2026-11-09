@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Hydro Pulse",
+    "slug": "hydro-pulse",
+    "version": "3.0.4",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.hydropulse.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Sua localização ajuda a posicionar relatos de alagamento no mapa."
+      }
+    },
+    "android": {
+      "versionCode": 12,
+      "package": "br.com.hydropulse.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A4168"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permita que o Hydro Pulse use sua localização para registrar ocorrências próximas."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita que o Hydro Pulse acesse suas fotos para anexar evidências e definir sua foto de perfil.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true,
+          "faceIDPermission": false
+        }
+      ]
+    ]
+  }
+}
